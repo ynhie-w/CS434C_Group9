@@ -5,3 +5,5 @@
 27211138605	Ngô Hoàng Khiêm
 
 27211234570	Nguyễn Văn Khánh
+
+https://www.canva.com/design/DAGQDv3Cgjc/nNWWcdhJPjIUmzoOM-PxsQ/edit?utm_content=DAGQDv3Cgjc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
