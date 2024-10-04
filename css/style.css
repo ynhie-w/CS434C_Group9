@@ -1,19 +1,19 @@
 @import url("https://fonts.cdnfonts.com/css/brittany-signature");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 #wrapper {
   max-width: 960px;
   min-width: 400px;
-  margin: 0px auto;
 }
 * {
+  font-family: "Itim";
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: Arial, "Brittany Signature", sans-serif;
   background-color: #eee2e2df;
 }
 header {
-  height: 120px;
+  height: 70px;
   background-color: #eea3af;
   color: #fff;
   text-align: left;
@@ -21,6 +21,9 @@ header {
   justify-content: center;
   display: flex;
   align-items: center;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
 }
 .logo {
   width: 50px;
@@ -30,6 +33,7 @@ header {
   width: 100px;
   height: 100px;
 }
+
 nav {
   flex-grow: 1;
 }
@@ -37,7 +41,7 @@ nav a {
   flex-grow: 1;
   color: #ffffff;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 nav a:hover {
   color: #333;
@@ -82,12 +86,15 @@ h2 {
   align-items: center;
   top: 50px;
 }
-h3 {
+h4 {
   width: 100%;
   position: relative;
   top: 20px;
 }
-
+.tours p {
+  margin: 0px 25px;
+  text-align: justify;
+}
 .tours ul {
   height: auto;
   display: flex;
@@ -111,32 +118,45 @@ h3 {
 /*================*/
 
 .tours img {
-  margin-top: 15px;
-  width: 170px;
-  height: 100px;
+  margin-top: 20px;
+  width: 310px;
+  height: 200px;
   object-fit: cover;
   border: none;
   border-radius: 10px;
 }
 .tours li {
   margin-top: 50px;
-  height: 350px;
-  width: 300px;
+  height: 550px;
+  width: 350px;
   background-color: #ffffff;
   border-radius: 20px;
   border: 3px solid #e77185;
   margin-right: 20px;
-  max-width: 200px;
-  width: 100%;
 }
+/*===========================*/
 
+input {
+  width: 200px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #ffffffdf;
+  border: solid #e77185;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 /*==========================*/
 .pagination {
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
-
+.pagination input {
+  padding: 0px 20px;
+  display: inline-flex;
+}
 .pagination ul {
   list-style: none;
   display: inline-flex;
@@ -147,6 +167,7 @@ h3 {
 }
 
 .pagination a {
+  display: inline;
   text-decoration: none;
   color: rgb(231, 113, 133);
   padding: 10px 15px;
@@ -155,11 +176,25 @@ h3 {
   transition: background-color 0.5s, color 0.5s;
 }
 
-.pagination a:hover {
+.pagination a:hover,
+.bt a:hover {
   background-color: rgb(231, 113, 133);
   color: white;
 }
-
+/***************/
+.bt a {
+  text-decoration: none;
+  background-color: #eee2e2df;
+  color: #e77185;
+  padding: 10px 15px;
+  border: 3px solid #e77185;
+  border-radius: 10px;
+  transition: background-color 0.5s, color 0.5s;
+}
+.bt {
+  margin-top: 150px;
+}
+/*==========================*/
 footer {
   background-color: #333;
   color: #e77185;
@@ -168,8 +203,11 @@ footer {
   list-style: none;
   display: flex;
   font-size: 30px;
-  height: 80px;
+  height: 70px;
 }
+
+/*=================================*/
+
 /*================================
 file Contact.html*/
 /* Style cho button */
