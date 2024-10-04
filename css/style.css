@@ -1,0 +1,214 @@
+@import url("https://fonts.cdnfonts.com/css/brittany-signature");
+#wrapper {
+  max-width: 960px;
+  min-width: 400px;
+  margin: 0px auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, "Brittany Signature", sans-serif;
+  background-color: #eee2e2df;
+}
+header {
+  height: 120px;
+  background-color: #eea3af;
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+nav {
+  flex-grow: 1;
+}
+nav a {
+  flex-grow: 1;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #333;
+}
+nav li {
+  margin-right: 50px;
+}
+nav ul {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+/*=======================*/
+h1,
+.tours h1,
+h2,
+p {
+  color: #e77185;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  position: relative;
+  top: 50px;
+}
+h1,
+h6 {
+  font-family: "Brittany Signature", sans-serif;
+  position: relative;
+}
+h6 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1 {
+  font-size: 60px;
+  top: 50px;
+}
+h2 {
+  background-position: center;
+  align-items: center;
+  top: 50px;
+}
+h3 {
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.tours ul {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(231, 113, 133);
+  text-align: center;
+}
+
+.tours li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 30%;
+}
+.tours h3 {
+  font-size: 24px;
+}
+
+/*================*/
+
+.tours img {
+  margin-top: 15px;
+  width: 170px;
+  height: 100px;
+  object-fit: cover;
+  border: none;
+  border-radius: 10px;
+}
+.tours li {
+  margin-top: 50px;
+  height: 350px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 3px solid #e77185;
+  margin-right: 20px;
+  max-width: 200px;
+  width: 100%;
+}
+
+/*==========================*/
+.pagination {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.pagination ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: rgb(231, 113, 133);
+  padding: 10px 15px;
+  border: 2px solid rgb(231, 113, 133);
+  border-radius: 10px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.pagination a:hover {
+  background-color: rgb(231, 113, 133);
+  color: white;
+}
+
+footer {
+  background-color: #333;
+  color: #e77185;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  font-size: 30px;
+  height: 80px;
+}
+/*================================
+file Contact.html*/
+/* Style cho button */
+.link p a {
+  text-decoration: none;
+  color: #e77185;
+}
+.link p {
+  height: 10px;
+  padding: 10px;
+}
+.link p a:hover {
+  color: #333;
+}
+.chat {
+  display: flex;
+  max-width: 90%;
+  height: 500px;
+  border: none;
+  margin: 30px auto;
+  border-radius: 40px;
+  justify-content: center; /*căn giữa trang ở đây nè*/
+}
+
+.mot,
+.hai {
+  margin-top: 50px;
+  height: 300px;
+  background-color: #ffffff;
+
+  border-radius: 20px;
+  border: 3px solid #e77185;
+}
+.mot {
+  margin-right: 20px;
+  max-width: 300px;
+  width: 30%;
+}
+.hai {
+  max-width: 700px;
+  width: 70%;
+}
