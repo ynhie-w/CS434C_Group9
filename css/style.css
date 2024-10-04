@@ -136,7 +136,7 @@ h4 {
 }
 /*===========================*/
 
-input {
+.pagination input {
   width: 200px;
   border-radius: 10px;
   height: 40px;
@@ -246,7 +246,46 @@ file Contact.html*/
   max-width: 300px;
   width: 30%;
 }
+hr {
+  border: 2px solid #e77185;
+}
+.mot hr {
+  margin-top: 40px;
+  border: 2px solid #e77185;
+}
 .hai {
   max-width: 700px;
   width: 70%;
+}
+.Hr {
+  margin-top: 10px;
+}
+.hai input {
+  border: none;
+  font-size: 20px;
+}
+.boxchat {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.hai h5 {
+  margin-left: 20px;
+  border-radius: 13px;
+  max-width: 200px;
+  width: 40%;
+  height: 38px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hai .Adm h5 {
+  background-color: #e77185;
+}
+.hai .Cus h5 {
+  background-color: #333;
+  color: #ffffff;
 }
